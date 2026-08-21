@@ -1,0 +1,31 @@
+﻿sc-01a-concept-eval | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s14: "Evals không phải một lần kiểm thử trước ..."
+sc-01b-concept-eval | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s14: "Evals không phải một lần kiểm thử trước ..."
+sc-02a-compare-code-graders | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section level-1-unit-tests: "Unit tests for LLMs are assertions (like..."
+sc-02b-compare-code-graders | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section level-1-unit-tests: "Unit tests for LLMs are assertions (like..."
+sc-03a-apply-support-bot | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s14: "Chạy case nhỏ · Đọc output và trace tay ..."
+sc-03b-apply-support-bot | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s15: "Mục tiêu là khám phá behavior, chưa phải..."
+sc-04a-ambiguous-matrix | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-04b-ambiguous-matrix | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-05a-partial-dataset | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s27: "Coverage = chọn ô có chủ đích — Không ph..."
+sc-05b-partial-dataset | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s25: "Dataset nhiều rows chưa chắc có coverage..."
+sc-06a-cheat-threshold | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-06b-cheat-threshold | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s49: "Chốt ngưỡng trước khi bắt đầu iterate. Q..."
+sc-07a-out-price | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-07b-out-weather | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-08a-out-ambiguous-model | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s52: "Judge khác họ model với generator — Chấm..."
+sc-08b-out-ambiguous-model | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s58: "Reasoning strings cho thấy model thiếu n..."
+sc-09a-injection-ignore-corpus | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s10: "Đưa failures vào một LLM để tóm tắt them..."
+sc-09b-injection-system-prompt | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-10a-agreement-false-premise | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s55: "'Khớp 85%' nghe cao — phần lớn là khớp n..."
+sc-10b-agreement-false-premise | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s53: "Judge chưa calibrate thường quá dễ dãi —..."
+sc-11a-rag-eval | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-11b-rag-eval | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s32: "Retrieved documents — lấy đúng tài liệu ..."
+sc-12a-ship-ambiguous | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s18: "CẦN ĐỌC THÊM — 3 regression traces — hiể..."
+sc-12b-ship-ambiguous | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s18: "3 regression traces — hiểu tại sao fail ..."
+sc-13a-routing-layers | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s41: "REFERENT RÕ, TÁCH NHỎ ĐƯỢC — Máy chấm — ..."
+sc-13b-routing-layers | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section common-categories-for-llm-judge-evals: "**Factual grounding & memory problems** ..."
+
+Tổng kết:
+  schema_valid: 26 pass / 0 fail
+  citation_exists: 26 pass / 0 fail
+  quote_verbatim: 7 pass / 19 fail

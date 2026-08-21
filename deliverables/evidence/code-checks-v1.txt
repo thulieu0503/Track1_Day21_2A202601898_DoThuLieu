@@ -1,0 +1,31 @@
+﻿sc-01a-concept-eval | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s14: "Evals không phải một lần kiểm thử trước ..."
+sc-01b-concept-eval | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s14: "Evals không phải một lần kiểm thử trước ..."
+sc-02a-compare-code-graders | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section level-1-unit-tests: "Unit tests for LLMs are assertions (like..."
+sc-02b-compare-code-graders | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section level-1-unit-tests: "Unit tests for LLMs are assertions (like..."
+sc-03a-apply-support-bot | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s65: "1 Dataset có chủ đích Use case + 3–5 40–..."
+sc-03b-apply-support-bot | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section step-1-evaluate-all-components-in-a-system: "for a customer support application, a go..."
+sc-04a-ambiguous-matrix | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s53: "TNR = 1/3 = 33% — gặp output lỗi, bắt đư..."
+sc-04b-ambiguous-matrix | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section calculating-reliability-metrics: "TNR = 8 / (8 + 22) = 8 / 30 = 27%... the..."
+sc-05a-partial-dataset | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s25: "Dataset nhiều rows chưa chắc có coverage..."
+sc-05b-partial-dataset | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s25: "Dataset nhiều rows chưa chắc có coverage..."
+sc-06a-cheat-threshold | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s49: "Quyết định sau khi thấy số thì không còn..."
+sc-06b-cheat-threshold | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s18: "Đừng chỉ nhìn con số tổng — trung bình c..."
+sc-07a-out-price | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-07b-out-weather | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-08a-out-ambiguous-model | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s58: "Đã chạm điểm trần với model này. Vấn đề ..."
+sc-08b-out-ambiguous-model | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-09a-injection-ignore-corpus | schema_valid: pass | citation_exists: FAIL — nguồn không tồn tại: chip-huyen-ch4#step-2-create-an-evaluation-guideline | quote_verbatim: FAIL — quote không khớp section types-of-graders-for-agents: "Code-based graders... Brittle to valid v..."
+sc-09b-injection-system-prompt | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-10a-agreement-false-premise | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s55: ""Khớp 85%" nghe cao — phần lớn là khớp n..."
+sc-10b-agreement-false-premise | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s55: "Trừ phần trùng-do-may-rủi đi, "khớp 85%"..."
+sc-11a-rag-eval | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section case-study-evaluating-a-text-to-sql-analytics-agent: "Step 1: Decompose the pipeline... Step 2..."
+sc-11b-rag-eval | schema_valid: pass | citation_exists: pass | quote_verbatim: pass
+sc-12a-ship-ambiguous | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s18: "Số liệu cho phép ship. Nó không thay việ..."
+sc-12b-ship-ambiguous | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s18: "3 regression traces — hiểu tại sao fail ..."
+sc-13a-routing-layers | schema_valid: pass | citation_exists: pass | quote_verbatim: FAIL — quote không khớp section s65: "Route bộ chấm theo referent — Từng tiêu ..."
+sc-13b-routing-layers | schema_valid: FAIL — JSON không parse được (xem raw_content) | citation_exists: skip | quote_verbatim: skip
+
+Tổng kết:
+  schema_valid: 25 pass / 1 fail
+  citation_exists: 24 pass / 1 fail
+  quote_verbatim: 5 pass / 20 fail
